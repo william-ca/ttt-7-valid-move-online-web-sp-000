@@ -7,7 +7,7 @@ else board[index] == "X" || board[index] == "O"
 end
 end
 
-def valid_move?
+def valid_move?(board, index)
   if position_taken? == "false"
     "false"
   end
